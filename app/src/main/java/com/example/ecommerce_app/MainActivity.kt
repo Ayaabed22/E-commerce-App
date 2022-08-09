@@ -11,10 +11,19 @@ import com.google.accompanist.pager.ExperimentalPagerApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            val productItem = ProductItem()
-            productItem.ProductItemDesign()
-            val tableLayout = TapLayout()
-            tableLayout.TabScreen()
+            // To show product Item
+//            val productItem = ProductItem()
+//            productItem.ProductItemDesign()
+
+            // To show Tap Layout
+//            val tapLayout = TapLayout()
+//            tapLayout.TabScreen()
+
+            // To show Sign Up Screen
+            val signUp = SignUp()
+            signUp.DisplayListOfEditTexts()
+
+
         }
     }
 }
