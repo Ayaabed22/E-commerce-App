@@ -17,7 +17,7 @@ fun ListOfProducts() {
         items(
             items = products,
             itemContent = {
-//                ProductItemDesign(productDataItem = it)
+                ProductItemUI(productDataItem = it)
             })
     }
 }
