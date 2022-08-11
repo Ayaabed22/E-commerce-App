@@ -1,7 +1,6 @@
  package com.example.ecommerce_app
 
 import android.os.Bundle
-import android.widget.TableLayout
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.google.accompanist.pager.ExperimentalPagerApi
